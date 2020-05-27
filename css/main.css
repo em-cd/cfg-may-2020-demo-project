@@ -1,0 +1,24 @@
+main {
+  padding-top: 56px;
+}
+
+.carousel {
+  margin-bottom: 3rem;
+}
+
+.carousel-item {
+  height: calc(100vh - 56px);
+  overflow: hidden;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
